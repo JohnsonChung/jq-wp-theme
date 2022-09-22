@@ -472,11 +472,13 @@ function cptui_register_my_cpts05() {
 }
 add_action( 'init', 'cptui_register_my_cpts05' );
 
+
 /*-----------------------------------------------------------------------------------*/
 /* ACF Custom Option Pages
 /*-----------------------------------------------------------------------------------*/
 function acf_op_init_01() {
-    if( function_exists('acf_add_options_page') ) {        
+    if( function_exists('acf_add_options_page') ) {
+        
         acf_add_options_page(array(
             'page_title' 	=> 'ドライブスルー洗車・ページ・エディター',
             'menu_title'	=> '洗車(ページ)',
@@ -487,8 +489,8 @@ function acf_op_init_01() {
             'icon_url'      => 'dashicons-car',
             'update_button' => 'ページ更新',
             'updated_message' => '" ドライブスルー洗車 " ページを更新しました。',
-        ));        
-        acf_add_options_sub_page(array(
+        ));
+		acf_add_options_sub_page(array(
             'page_title' 	=> '洗車テスト用ページ',
             'menu_title'	=> 'テストページ',
             'menu_slug' => 'acf-options-carwash-test',

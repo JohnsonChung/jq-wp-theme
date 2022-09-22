@@ -174,10 +174,7 @@
                             </a>
                         </div>
                     </div>
-                </li>
-<li class="megamenu__child--hasCat"><a href="https://www.instagram.com/jqsaiyou/" target="_blank"><img src="/recruit/assets/img/ig.svg" alt="instagram"></a>
-
-				
+                </li>				
             </ul>
 
 

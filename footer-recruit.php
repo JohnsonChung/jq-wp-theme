@@ -43,13 +43,6 @@
                     </dd>
                 </dl>
             </div>
-            <div class="footer__sns">
-                <p>Follow Us</p>
-                <ul><li><a href="https://www.instagram.com/jqsaiyou/" target="_blank"><img src="<?php echo out_file_dir_recruit(); ?>/assets/img/ig.svg" alt="instagram"></a></li>
-                </ul>
-
-			
-			</div>
         </div>
         <div class="footer__inner">
             <small>Copyright ©︎ 2021 J-Quest Corporation</small>
